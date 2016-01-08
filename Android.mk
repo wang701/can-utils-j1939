@@ -311,40 +311,40 @@ include $(BUILD_EXECUTABLE)
 # slcan_attach
 #
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := slcan_attach.c
-LOCAL_MODULE := slcan_attach
-LOCAL_MODULE_TAGS := optional
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
-LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+#LOCAL_SRC_FILES := slcan_attach.c
+#LOCAL_MODULE := slcan_attach
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
+#LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 
-include $(BUILD_EXECUTABLE)
+#include $(BUILD_EXECUTABLE)
 
 #
 # slcand
 #
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := slcand.c
-LOCAL_MODULE := slcand
-LOCAL_MODULE_TAGS := optional
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
-LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+#LOCAL_SRC_FILES := slcand.c
+#LOCAL_MODULE := slcand
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
+#LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 
-include $(BUILD_EXECUTABLE)
+#include $(BUILD_EXECUTABLE)
 
 #
 # slcanpty
 #
 
-include $(CLEAR_VARS)
+#include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := slcanpty.c
-LOCAL_MODULE := slcanpty
-LOCAL_MODULE_TAGS := optional
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
-LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
+#LOCAL_SRC_FILES := slcanpty.c
+#LOCAL_MODULE := slcanpty
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
+#LOCAL_CFLAGS := $(PRIVATE_LOCAL_CFLAGS)
 
-include $(BUILD_EXECUTABLE)
+#include $(BUILD_EXECUTABLE)
